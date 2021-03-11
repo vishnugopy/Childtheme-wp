@@ -18,7 +18,7 @@
 		<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
 
 			<div id="footer-text" class="site-info">
-				Created by 🦾Robots
+            <a href="<?php echo esc_url (get_theme_mod( 'gridbox_child_theme_custom_link' )) ?>"><?php echo get_theme_mod( 'gridbox_child_theme_custom_setting' ) ?></a>
 			</div><!-- .site-info -->
 			
 			<?php do_action( 'gridbox_footer_menu' ); ?>
